@@ -50,6 +50,51 @@ button:active {
     top: -1rem;
     padding: 24px;
     color: white;
+    opacity: 0;
+    transition: opacity 2s ease-in .1s;
+
+    /* transform: translate(-20rem); */
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s; */
+}
+
+@keyframes leftsidebar {
+    0% {
+        left: -20rem;
+    }
+    10% {
+        left: -18rem;
+    }
+    20% {
+        left: -16rem;
+    }
+    30% {
+        left: -14rem;
+    }
+    40% {
+        left: -12rem;
+    }
+    50% {
+        left: -10rem;
+    }
+    60% {
+        left: -8rem;
+    }
+
+    70% {
+        left: -6rem;
+    }
+    80% {
+        left: -4rem;
+    }
+    90% {
+        left: -2rem;
+    }
+    100% {
+        left: 0rem;
+    }
 }
 
 .close {
